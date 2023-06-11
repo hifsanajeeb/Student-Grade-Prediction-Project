@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Grade Prediction Result</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e8e8e8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 600px;
+            padding: 20px;
+            background-color: #338AFF ;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0);
+            text-align: center;
+        }
+
+        h1 {
+            color: #ffffff;
+            margin-top: 0;
+        }
+
+        .grade {
+            font-size: 36px;
+            margin-top: 30px;
+            color: #ffffff;
+        }
+
+        .footer {
+            margin-top: 20px;
+            color: #ffffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Grade Prediction Result</h1>
+        <div class="grade">
+            <strong>Predicted Grade:</strong> {{ predicted_grade }}
+        </div>
+        <div class="footer">
+            <p>Thank you for using our grade prediction system.</p>
+        </div>
+    </div>
+</body>
+</html>
